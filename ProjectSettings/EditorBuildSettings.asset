@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 1- The Living World/1. Biodiversity/Bio Diversity.unity
+    guid: fb76bbbf3be37f3408c5d570720323d4
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 1- The Living World/3. Three domains of life/3
+      domains of life.unity
+    guid: e615c07b66547a047a3ea506132b5fc1
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 1- The Living World/5.gymnospermae/gymnospermae.unity
+    guid: fa1ba3d5ec9cca8498a738bf26942b8f
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 1- The Living World/Taxonomy Classification/Taxonomy.unity
+    guid: 751b1fbdce18c48418a3261a74180770
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/1.Five kingdom
+      classification/Five kingdom classification.unity
+    guid: 07670fbbfcbb37849a345e5e2d7ea0f1
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/2. Salient features
+      and classification of Monera/Archbacteria/Archbacteria.unity
+    guid: 4e2c41a78995dbd4f8d80ee8f5a97c1c
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/2. Salient features
+      and classification of Monera/bacteria division/bacteria division.unity
+    guid: e9b319694fd4ccf49b4ae23bc683105f
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/2. Salient features
+      and classification of Monera/based on shapes/based on shapes.unity
+    guid: 59a8cde102eb65949827ddd7275e3d06
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/2. Salient features
+      and classification of Monera/eubacteria2/eubacteria2.unity
+    guid: 9470c0b61951f03409f2b78ec2534713
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/3. Protista and
+      Fungi/Fungi/Ascomycetes/Aspergillus.unity
+    guid: 71fe4a980079bb74f8ed4fc666f19e8e
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/3. Protista and
+      Fungi/Fungi/Basidiomycetes/Basidiomycetes.unity
+    guid: a99479d71631179428746dba8208cd37
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/3. Protista and
+      Fungi/Protista/Euglena/Euglena.unity
+    guid: 172631528e69f6947b59bc7a18d45c05
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/3. Protista and
+      Fungi/Protista/Protozoans/Protozoan.unity
+    guid: a527daa75ce1b624d8701db727d67525
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/3. Protista and
+      Fungi/Protista/Slime Moulds/slime moulde.unity
+    guid: 748d426f28a99d94ba0e5edbf6976db5
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/5. Lichens, Viruses
+      and Viroids/Lichens/lichens.unity
+    guid: e0ae3ce03748aff4294cbc92f7a3e0ea
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/5. Lichens, Viruses
+      and Viroids/prions proteins/prions proteins.unity
+    guid: 7b5d5f68ff0efb3489af7f220143edf0
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/5. Lichens, Viruses
+      and Viroids/viroids/viroids.unity
+    guid: d2709b0b68e4c244ea6e87e4df87c95b
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/5. Lichens, Viruses
+      and Viroids/virus/Virus.unity
+    guid: ce6c47aafc1bc0b4998699d8ad0294ba
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 2-Biological Classification/Protozones/protozones.unity
+    guid: f6d0359d23766a24b87c399818873e55
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 3-Plant Kingdom/1. Salient features and classification
+      of plants into major groups -/Algae/Chlorophyceae/Chlorophyceae.unity
+    guid: a2a92dbee5d3d16448d32b5e5046510c
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 3-Plant Kingdom/1. Salient features and classification
+      of plants into major groups -/Algae/Phaeophyceae/Phaeophyceae.unity
+    guid: 470c0b9631502484fa82c234b7f79d67
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 3-Plant Kingdom/1. Salient features and classification
+      of plants into major groups -/Algae/Rhodophyceae/Rhodophyceae-Polysiphonia.unity
+    guid: 4afc27516d2c74647936dde9d2e04d70
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 3-Plant Kingdom/1. Salient features and classification
+      of plants into major groups -/Angiospermae/dicotyledon/dicotyledon.unity
+    guid: 5eb4f1767e00e6149b166db0e1650bcc
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 3-Plant Kingdom/1. Salient features and classification
+      of plants into major groups -/Angiospermae/monocotyledon/monocotyledons.unity
+    guid: 89b667eb677631641bcac7dea25441d1
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 3-Plant Kingdom/1. Salient features and classification
+      of plants into major groups -/Bryophyta/Liveworts/livewort.unity
+    guid: f6121981ed2264b44bfa8b6f549366f5
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 3-Plant Kingdom/1. Salient features and classification
+      of plants into major groups -/Bryophyta/moses/mosses.unity
+    guid: f229a8d3a52d8744789eb3612031dede
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 3-Plant Kingdom/1. Salient features and classification
+      of plants into major groups -/Gymnospermae/Gymnospermae.unity
+    guid: cf3f676f934b169419467baa7bb05876
+  - enabled: 0
+    path: Assets/Scenes/BIOLOGY/Chapter 3-Plant Kingdom/1. Salient features and classification
+      of plants into major groups -/Pteridophyta/pteridophyta.unity
+    guid: 01f030ba1af70cc41bbc0b18d220386e
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/I Early Socities/Theme 1 From the Beginning of Time/Spear
+      thrower/Spear Thrower.unity
+    guid: 35ad8ad99bc652444aa7ea53f095dab4
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/I Early Socities/Theme 1 From the Beginning of Time/Story
+      of human evolution/The Precursors of Modern Human Beings/ape skull/ape skull.unity
+    guid: 1a5d34cdaa206e14ab785dc048a2a154
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/I Early Socities/Theme 1 From the Beginning of Time/Story
+      of human evolution/The Precursors of Modern Human Beings/Australopithecus skull/AUSTRALOPITHECUS
+      SKULL.unity
+    guid: 7ec59d67d7fe0f347853eab7a1218a15
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/I Early Socities/Theme 1 From the Beginning of Time/Story
+      of human evolution/The Precursors of Modern Human Beings/homo erectus skull/skull.unity
+    guid: 2413906c88b04d448ac4f294a0a94837
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/I Early Socities/Theme 1 From the Beginning of Time/Story
+      of human evolution/The Precursors of Modern Human Beings/Homo sapien skull/Homo
+      Sapiens skull.unity
+    guid: 160ee3e5ff3c62949b0f346e23404eeb
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/I Early Socities/Theme 1 From the Beginning of Time/Tools/Tools.unity
+    guid: 0afed123ecc5b9d49a4028a70cb50f80
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/I Early Socities/Theme 2 Writing and City Life/development
+      of writng/clay tablets.unity
+    guid: f102572005a302240b0a5a3e542dea48
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/I Early Socities/Theme 2 Writing and City Life/uses
+      of writing/mesopotamian cylinder seals.unity
+    guid: 4bae6c5aa99fc494d896fb57f9d6913e
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/II Empires/Theme 3 An Empire Across Three Continents/Colosseum/colosseum.unity
+    guid: 800013ed27792d6469fe1096fadba5c2
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/II Empires/Theme 3 An Empire Across Three Continents/Pont
+      du Gard/Pont du Gard.unity
+    guid: 66aebdfbb12b9e64381331387af2a6b9
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/II Empires/Theme 3 An Empire Across Three Continents/Ruins
+      at greek city of Corinth/ruins at greek city of corinth.unity
+    guid: 37cd9c18b85507e4f8c177b743603bac
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/II Empires/Theme 4 The Central Islamic Lands/'AjaiBul
+      Makhluqat'  - Jibril/AjaiBul-Mukhluqat jibril.unity
+    guid: b63f3f0d8c3c10c42a9c7128e33ebae6
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/II Empires/Theme 4 The Central Islamic Lands/A boat
+      sailing to Basra/A boat sailing.unity
+    guid: f763e8a948bec394c8ceb2fcfc7c5266
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/II Empires/Theme 4 The Central Islamic Lands/Al-Malik
+      coinage reform/al-malik coinage.unity
+    guid: 448386036970f1247bbbb41358986f99
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/II Empires/Theme 4 The Central Islamic Lands/Painting
+      of whirling dervishes-4 men dancing/4 men dancing.unity
+    guid: 3e3ab149e7a0c804c97e274c79442d09
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/II Empires/Theme 4 The Central Islamic Lands/The
+      Great Mosque of Samarra/The Great Mosque of Samarra.unity
+    guid: 04ea3dcecce5a2449bdfb7aee80dee65
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/II Empires/Theme 5 Nomadic Empires/Mongol map/mangola
+      map.unity
+    guid: 63cca55631de7ba4396cf00c17ee045e
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/II Empires/Theme 5 Nomadic Empires/Qubilai Khan and
+      Chabi in camp/Qublai khan and Chabi in camp.unity
+    guid: 247976254eefe39409a2630d92b53e5c
+  - enabled: 0
+    path: Assets/Scenes/HISTORY/II Empires/Theme 5 Nomadic Empires/The Great Wall
+      of China/The Great Wall of China.unity
+    guid: 1ccbd3144a602434088421bde631c9ca
+  - enabled: 0
+    path: Assets/Scenes/GEOGRAPHY/Chp 2 THE ORIGIN AND EVOLUTION OF THE EARTH/The
+      Star Formation/UNIVERSAL ELEMENT FORMATION.unity
+    guid: 6819c99d2dac4d3439c873b7cf5a4536
+  - enabled: 0
+    path: Assets/Scenes/GEOGRAPHY/Chp 3 INTERIOR OF THE EARTH/Cinder cone/Cinder
+      cone 2.unity
+    guid: 9a9b88feff0fae948ae6b8d82e8bc14b
+  - enabled: 0
+    path: Assets/Scenes/GEOGRAPHY/Chp 3 INTERIOR OF THE EARTH/Composite volcano/Composite
+      Vocano.unity
+    guid: bb357dad2cd0cb24cb66f705079f3d14
+  - enabled: 0
+    path: Assets/Scenes/GEOGRAPHY/Chp 3 INTERIOR OF THE EARTH/Layers of Earth/layer
+      of earth.unity
+    guid: 670f7a79df54ae74993c9de6ef81abd8
+  - enabled: 0
+    path: Assets/Scenes/GEOGRAPHY/Chp 3 INTERIOR OF THE EARTH/Volcanic landforms/Volcanic
+      landforms.unity
+    guid: 97cbab965009b92479c92a629a84de35
+  - enabled: 0
+    path: Assets/Scenes/GEOGRAPHY/Chp 4 DISTRIBUTION OF OCEANS AND CONTINENTS/Sea
+      Floor Spreading/Sea Floor.unity
+    guid: 9478c76ffdf405c4792cecf78543789c
+  - enabled: 1
+    path: Assets/Scenes/Chemistry/Chapter 2 Structure of Atom/Dual nature of light/Dual
+      nature of light.unity
+    guid: 9841b0f6bd2bbd7468452da76c9dfcd8
+  - enabled: 0
+    path: Assets/Scenes/Chemistry/Chapter 2 Structure of Atom/orbitals/3d orbitals.unity
+    guid: 05286c43a8fa86744a4e08e9c510efd7
+  - enabled: 0
+    path: Assets/Scenes/Chemistry/Chapter 2 Structure of Atom/orbitals/1s 2s orbitals.unity
+    guid: 0d495aab498dc644697eaae7fba35a02
+  m_configObjects:
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
+      type: 2}
+    com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: 41702d90c3a96bd44bcb42072eb57007,
+      type: 2}
+    com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 77e719a74386bda48823fed3c42e2cd9,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 1eb95d77acb39444e8cf44313496a874,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 58f40b12bbc864f3c96c6505a9a1e1e3,
+      type: 2}

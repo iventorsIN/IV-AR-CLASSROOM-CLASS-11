@@ -1,0 +1,739 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4543646449112917206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4543646449112917205}
+  - component: {fileID: 593687264548301544}
+  - component: {fileID: 6090696787281753670}
+  - component: {fileID: 5300715672212179864}
+  m_Layer: 0
+  m_Name: bacteria divisions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4543646449112917205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4543646449112917206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.44662, y: -0.5010018, z: 0.22947767}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4072660484820826961}
+  - {fileID: 4072660485409438985}
+  - {fileID: 4072660486615854644}
+  - {fileID: 4072660484556064717}
+  - {fileID: 4072660486638473453}
+  - {fileID: 4072660485016182545}
+  - {fileID: 4072660486638950595}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &593687264548301544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4543646449112917206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
+  Sensitivity: 1
+  Damping: -1
+  Inertia: 0
+  remainingTranslation: {x: 0, y: 0, z: 0}
+--- !u!114 &6090696787281753670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4543646449112917206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
+  Relative: 0
+  Sensitivity: 1
+  Damping: -1
+  remainingScale: {x: 0, y: 0, z: 0}
+--- !u!114 &5300715672212179864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4543646449112917206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7c91b26689a054d88448aba6dfe424, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Axis: {x: 0, y: -1, z: 0}
+  Space: 1
+  Sensitivity: 1
+--- !u!1001 &4543646447939043112
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4543646449112917205}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.571215
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2826855
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99950457
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.03147536
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 3.607
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_Name
+      value: Bacteria Division Animation (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c640e27702ecf5d41b713c0d07e01f97, type: 3}
+--- !u!4 &4072660486638950595 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+    type: 3}
+  m_PrefabInstance: {fileID: 4543646447939043112}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4543646447939516166
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4543646449112917205}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.59726954
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2949665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.88780534
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4602192
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -54.802002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_Name
+      value: Bacteria Division Animation (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c640e27702ecf5d41b713c0d07e01f97, type: 3}
+--- !u!4 &4072660486638473453 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+    type: 3}
+  m_PrefabInstance: {fileID: 4543646447939516166}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4543646447987100127
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4543646449112917205}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.0463934
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.1753193
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99073106
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.13583833
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 15.614
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_Name
+      value: Bacteria Division Animation (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c640e27702ecf5d41b713c0d07e01f97, type: 3}
+--- !u!4 &4072660486615854644 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+    type: 3}
+  m_PrefabInstance: {fileID: 4543646447987100127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4543646449193458402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4543646449112917205}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.859375
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.0129776
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9394347
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.342728
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 40.086002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_Name
+      value: Bacteria Division Animation (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c640e27702ecf5d41b713c0d07e01f97, type: 3}
+--- !u!4 &4072660485409438985 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+    type: 3}
+  m_PrefabInstance: {fileID: 4543646449193458402}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4543646449553225978
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4543646449112917205}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.57
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.89558053
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.44489953
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 52.834003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_Name
+      value: Bacteria Division Animation (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c640e27702ecf5d41b713c0d07e01f97, type: 3}
+--- !u!4 &4072660485016182545 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+    type: 3}
+  m_PrefabInstance: {fileID: 4543646449553225978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4543646449748843706
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4543646449112917205}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.3781
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.8361
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_Name
+      value: Bacteria Division Animation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c640e27702ecf5d41b713c0d07e01f97, type: 3}
+--- !u!4 &4072660484820826961 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+    type: 3}
+  m_PrefabInstance: {fileID: 4543646449748843706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4543646450013265958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4543646449112917205}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.22773
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8485505
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5291145
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -63.891003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c640e27702ecf5d41b713c0d07e01f97,
+        type: 3}
+      propertyPath: m_Name
+      value: Bacteria Division Animation (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c640e27702ecf5d41b713c0d07e01f97, type: 3}
+--- !u!4 &4072660484556064717 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c640e27702ecf5d41b713c0d07e01f97,
+    type: 3}
+  m_PrefabInstance: {fileID: 4543646450013265958}
+  m_PrefabAsset: {fileID: 0}
